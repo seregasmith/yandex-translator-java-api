@@ -29,6 +29,7 @@ public final class Translate extends YandexTranslatorAPI {
 
   private static final String SERVICE_URL = "https://translate.yandex.net/api/v1.5/tr.json/translate?";
   private static final String TRANSLATION_LABEL = "text";
+  public static String DEFAULT_LANG;
 
   //prevent instantiation
   private Translate(){};
