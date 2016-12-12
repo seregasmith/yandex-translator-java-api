@@ -15,19 +15,13 @@
  */
 package com.rmtheis.yandtran.language;
 
-import com.rmtheis.yandtran.translate.Translate;
-
 /**
  * Language - an enum of language codes supported by the Yandex API
  */
-
 public enum Language {
-	
   ALBANIAN("sq"),
-  DEFAULT(Translate.DEFAULT_LANG.toString()),
   ARMENIAN("hy"),
   AZERBAIJANI("az"),
-  ARABIC("ar"),
   BELARUSIAN("be"),
   BULGARIAN("bg"),
   CATALAN("ca"),
@@ -60,7 +54,7 @@ public enum Language {
   TURKISH("tr"),
   UKRAINIAN("uk");
 
-/**
+  /**
    * String representation of this language.
    */
   private final String language;
