@@ -1,4 +1,4 @@
-#yandex-translator-java-api
+# yandex-translator-java-api
 * * *
 
 Provides a Java wrapper around the Yandex machine translation web service API. 
